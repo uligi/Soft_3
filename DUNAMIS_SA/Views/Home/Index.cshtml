@@ -1,8 +1,21 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Menu de Inicio - DUNAMIS SA";
+    var roleID = ViewBag.RoleID as int?;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="main-content">
+    <h1>Bienvenido @((roleID == 1) ? "Administrador" : "Empleado")</h1>
+    <div class="menu">
+        <a href="/cotizacion_cargas.html" class="menu-item">Cotizar Carga</a>
+        <a href="/creacion_factura.html" class="menu-item">Creación de Factura</a>
+        <a href="/generacion_reportes.html" class="menu-item">Reportes</a>
+        <a href="/mantenimientos.html" class="menu-item">Mantenimiento</a>
+        <a href="/historial_transacciones.html" class="menu-item">Historial Transacciones</a>
+        <a href="/registrar_cliente.html" class="menu-item">Registrar Cliente</a>
+        @if (roleID == 1) // Solo el administrador puede ver estas opciones
+        {
+            <a href="/registrar_empleado.html" class="menu-item">Registrar Empleado</a>
+            <a href="/actualizar_impuestos_descuentos.html" class="menu-item">Actualizar Impuestos y Descuentos</a>
+        }
+    </div>
 </div>

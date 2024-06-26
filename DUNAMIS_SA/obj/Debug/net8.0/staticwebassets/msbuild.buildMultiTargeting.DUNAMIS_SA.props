@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DUNAMIS_SA.props" />
+</Project>
