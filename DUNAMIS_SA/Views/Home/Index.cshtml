@@ -5,17 +5,28 @@
 
 <div class="main-content">
     <h1>Bienvenido @((roleID == 1) ? "Administrador" : "Empleado")</h1>
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.ErrorMessage
+        </div>
+    }
     <div class="menu">
         <a href="/cotizacion_cargas.html" class="menu-item">Cotizar Carga</a>
         <a href="/creacion_factura.html" class="menu-item">Creación de Factura</a>
         <a href="/generacion_reportes.html" class="menu-item">Reportes</a>
         <a href="/mantenimientos.html" class="menu-item">Mantenimiento</a>
         <a href="/historial_transacciones.html" class="menu-item">Historial Transacciones</a>
-        <a href="/registrar_cliente.html" class="menu-item">Registrar Cliente</a>
+        <a asp-controller="Cliente" asp-action="RegistrarCliente" class="menu-item">Registrar Cliente</a>
         @if (roleID == 1) // Solo el administrador puede ver estas opciones
         {
             <a href="/registrar_empleado.html" class="menu-item">Registrar Empleado</a>
             <a href="/actualizar_impuestos_descuentos.html" class="menu-item">Actualizar Impuestos y Descuentos</a>
         }
+    </div>
+    <div class="logout">
+        <form asp-controller="Auth" asp-action="Logout" method="post">
+            <button type="submit" class="button small">Cerrar Sesión</button>
+        </form>
     </div>
 </div>

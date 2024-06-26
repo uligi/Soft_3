@@ -166,3 +166,7 @@
     text-decoration: none;
     border: none;
 }
+
+.logout {
+    margin-top: 20px;
+}

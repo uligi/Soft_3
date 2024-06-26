@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rT9ViDjmaiw7y/2UBtxXYuXy1g1cK+A/xWiWrbZvbJw=",
+  "Hash": "Zyb2TKc+Rj0plIMiTvwCZmsi+sPyPywKP4WB5uI9l20=",
   "Source": "DUNAMIS_SA",
   "BasePath": "_content/DUNAMIS_SA",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DUNAMIS_SA.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\RegistrarCliente.css",
+      "SourceId": "DUNAMIS_SA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\",
+      "BasePath": "_content/DUNAMIS_SA",
+      "RelativePath": "css/RegistrarCliente.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RegistrarCliente.css"
     },
     {
       "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\site.css",

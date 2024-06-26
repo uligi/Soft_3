@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,8 +11,36 @@
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\views\\cliente\\registrarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:views\\cliente\\registrarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\wwwroot\\css\\registrarcliente.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:wwwroot\\css\\registrarcliente.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -65,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\views\\cliente\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:views\\cliente\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -143,10 +155,6 @@
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\controllers\\tarifacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:controllers\\tarifacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -158,7 +166,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,59 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-16T19:59:21.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwDMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T19:54:53.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\Rol.cs",
-              "RelativeDocumentMoniker": "Models\\Rol.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\Rol.cs",
-              "RelativeToolTip": "Models\\Rol.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T19:56:01.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-16T20:02:36.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Reporte\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Reporte\\Index.cshtml",
@@ -239,59 +195,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:54:31.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\Rol.cs",
+              "RelativeToolTip": "Models\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:56:01.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-26T14:43:39.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-26T14:43:47.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAkwCMAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA7wCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T14:55:33.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCsAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T14:36:45.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "RegistrarCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Cliente\\RegistrarCliente.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cliente\\RegistrarCliente.cshtml",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Cliente\\RegistrarCliente.cshtml",
+              "RelativeToolTip": "Views\\Cliente\\RegistrarCliente.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T19:58:16.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:54:53.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Styles.css",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\Styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Styles.css",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\Styles.css",
+              "RelativeToolTip": "wwwroot\\css\\Styles.css",
+              "ViewState": "AQIAAEUAAAAAAAAAAADwv6wAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-26T14:34:36.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-26T14:34:01.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistrarCliente.css",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\RegistrarCliente.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\RegistrarCliente.css",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\RegistrarCliente.css",
+              "RelativeToolTip": "wwwroot\\css\\RegistrarCliente.css",
+              "ViewState": "AQIAADgAAAAAAAAAAADwv1oAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-26T18:46:30.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T19:59:21.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-16T20:02:36.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "DetalleDeFactura.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\DetalleDeFactura.cs",
               "RelativeDocumentMoniker": "Models\\DetalleDeFactura.cs",
@@ -304,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "TipoDeCarga.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\TipoDeCarga.cs",
               "RelativeDocumentMoniker": "Models\\TipoDeCarga.cs",
@@ -317,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Cargas.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\Cargas.cs",
               "RelativeDocumentMoniker": "Models\\Cargas.cs",
@@ -330,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Models\\Cliente.cs",
@@ -343,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\Factura.cs",
               "RelativeDocumentMoniker": "Models\\Factura.cs",
@@ -356,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\Usuarios.cs",
               "RelativeDocumentMoniker": "Models\\Usuarios.cs",
@@ -369,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -382,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -395,20 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Styles.css",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\Styles.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Styles.css",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\Styles.css",
-              "RelativeToolTip": "wwwroot\\css\\Styles.css",
-              "ViewState": "AQIAAIYAAAAAAAAAAADwv6gAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-26T14:34:36.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -421,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "FacturaDTO.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\DTOs\\FacturaDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\FacturaDTO.cs",
@@ -434,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "TarifaService.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Services\\TarifaService.cs",
               "RelativeDocumentMoniker": "Services\\TarifaService.cs",
@@ -447,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ClienteService.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Services\\ClienteService.cs",
               "RelativeDocumentMoniker": "Services\\ClienteService.cs",
@@ -460,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "ReporteService.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Services\\ReporteService.cs",
               "RelativeDocumentMoniker": "Services\\ReporteService.cs",
@@ -473,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
@@ -486,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "TarifaDTO.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\DTOs\\TarifaDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\TarifaDTO.cs",
@@ -499,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "ClienteDTO.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\DTOs\\ClienteDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\ClienteDTO.cs",
@@ -512,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
@@ -525,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "Detalle.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Reporte\\Detalle.cshtml",
               "RelativeDocumentMoniker": "Views\\Reporte\\Detalle.cshtml",
@@ -538,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Cliente\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Cliente\\Edit.cshtml",
@@ -551,20 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Cliente\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cliente\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Cliente\\Create.cshtml",
-              "RelativeToolTip": "Views\\Cliente\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-16T19:58:16.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Cliente\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Cliente\\List.cshtml",
@@ -577,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Tarifa\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Tarifa\\Edit.cshtml.cs",
@@ -590,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Tarifa\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Tarifa\\Create.cshtml",
@@ -603,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\Tarifa\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Tarifa\\List.cshtml",
@@ -616,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "ReporteController.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\ReporteController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReporteController.cs",
@@ -629,20 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Controllers\\ClienteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T19:54:31.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "TarifaController.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\TarifaController.cs",
               "RelativeDocumentMoniker": "Controllers\\TarifaController.cs",

@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using DUNAMIS_SA.Data;
 
 namespace DUNAMIS_SA.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -15,16 +16,15 @@ namespace DUNAMIS_SA.Controllers
 
         public IActionResult Index()
         {
-            var userId = HttpContext.Session.GetInt32("UserID");
-            if (userId == null)
-            {
-                return RedirectToAction("Login", "Auth");
-            }
-
-            var roleID = HttpContext.Session.GetInt32("RoleID");
+            var roleID = User.IsInRole("Admin") ? 1 : 2;
             ViewBag.RoleID = roleID;
-
             return View();
+        }
+
+        public IActionResult Error()
+        {
+            ViewBag.ErrorMessage = "No puedes regresar a la página anterior. Estás siendo redirigido a la página principal.";
+            return View("Index");
         }
 
         public IActionResult Privacy()

@@ -10,18 +10,17 @@
 </head>
 <body>
     <header class="header">
-        <h1>Menu de Inicio</h1>
-        <a href="/" class="button small">Menu Inicio</a>
+        <h1>@ViewData["Title"]</h1>
     </header>
     <div class="container">
-        <main class="main-content pb-3">
+        <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - DUNAMIS SA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - DUNAMIS SA
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
