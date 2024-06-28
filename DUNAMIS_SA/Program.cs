@@ -13,19 +13,19 @@ string connectionString = null;
 // Selecciona la conexion por el nombre
 switch (machineName)
 {
-    case "Team1MachineName":
+    case "Ulises":
         connectionString = builder.Configuration.GetConnectionString("Team1Connection");
         break;
-    case "Team2MachineName":
+    case "Carlos":
         connectionString = builder.Configuration.GetConnectionString("Team2Connection");
         break;
-    case "Team3MachineName":
+    case "Janiz":
         connectionString = builder.Configuration.GetConnectionString("Team3Connection");
         break;
-    case "Team4MachineName":
+    case "Mario":
         connectionString = builder.Configuration.GetConnectionString("Team3Connection");
         break;
-    case "Team5MachineName":
+    case "Ernesto":
         connectionString = builder.Configuration.GetConnectionString("Team3Connection");
         break;
     default:
