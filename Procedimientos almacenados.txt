@@ -1,0 +1,79 @@
+--Procedimiento para Crear un Cliente
+
+CREATE PROCEDURE spCrearCliente
+    @Cedula INT,
+    @Nombre VARCHAR(255),
+    @Apellido1 VARCHAR(255),
+    @Apellido2 VARCHAR(255),
+    @DireccionID INT,
+    @TelefonoID INT,
+    @CorreoID INT,
+    @PagoID INT,
+    @TipoClienteID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Persona (Cedula, Nombre, Apellido1, Apellido2, DireccionID, TelefonoID, CorreoID, PagoID)
+    VALUES (@Cedula, @Nombre, @Apellido1, @Apellido2, @DireccionID, @TelefonoID, @CorreoID, @PagoID);
+
+    INSERT INTO Cliente (Cedula, TipoClienteID)
+    VALUES (@Cedula, @TipoClienteID);
+END
+GO
+
+--Procedimiento para Crear una Factura
+CREATE PROCEDURE spCrearFactura
+    @Fecha DATE,
+    @TotalSinDescuento DECIMAL(10, 2),
+    @TotalFinal DECIMAL(10, 2),
+    @ClienteID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Factura (Fecha, TotalSinDescuento, TotalFinal, ClienteID)
+    VALUES (@Fecha, @TotalSinDescuento, @TotalFinal, @ClienteID);
+END
+GO
+
+
+--Procedimiento para Crear un Detalle de Factura
+
+CREATE PROCEDURE spCrearDetalleDeFactura
+    @Total DECIMAL(10, 2),
+    @FacturaID INT,
+    @CargaID INT,
+    @UsuarioID INT,
+    @ImpuestoID INT,
+    @DescuentoID INT,
+    @FechaDeEmision DATETIME
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO DetalleDeFactura (Total, FacturaID, CargaID, UsuarioID, ImpuestoID, DescuentoID, FechaDeEmision)
+    VALUES (@Total, @FacturaID, @CargaID, @UsuarioID, @ImpuestoID, @DescuentoID, @FechaDeEmision);
+END
+GO
+
+
+--Procedimiento para Obtener Clientes
+
+CREATE PROCEDURE spObtenerClientes
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        p.Cedula, 
+        p.Nombre, 
+        p.Apellido1, 
+        p.Apellido2, 
+        c.TipoClienteID, 
+        tc.Descripcion AS TipoCliente
+    FROM Cliente c
+    INNER JOIN Persona p ON c.Cedula = p.Cedula
+    INNER JOIN TipoCliente tc ON c.TipoClienteID = tc.TipoClienteID;
+END
+GO
