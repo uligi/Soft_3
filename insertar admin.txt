@@ -1,0 +1,31 @@
+-- Llenar la tabla Persona
+INSERT INTO Persona (Cedula, Nombre, Apellido1, Apellido2, DireccionID, TelefonoID, CorreoID)
+VALUES (123456789, 'John', 'Doe', 'Smith', 1, 1, 1);
+GO
+
+-- Llenar la tabla Clientes
+INSERT INTO Clientes (Cedula, TipoClienteID, PagoID)
+VALUES (123456789, 1, 1);
+GO
+
+-- Llenar la tabla Usuarios
+DECLARE @RolID INT = (SELECT RolID FROM Rol WHERE Descripcion = 'Administrador del sistema');
+INSERT INTO Usuarios (Nombre, Correo, Contrasena, RolID, Cedula)
+VALUES ('adminuser', 'admin@example.com', 'securepassword', @RolID, 123456789);
+GO
+
+-- Llenar la tabla Descuento
+INSERT INTO Descuento (Monto, TipoDescuentoID)
+VALUES 
+(10.00, 1),  -- Descuento del 10% (Porcentaje)
+(5.00, 2),   -- Descuento de 5 unidades monetarias (Monto Fijo)
+(15.00, 3);  -- Descuento promocional del 15% (Promoción)
+GO
+
+-- Llenar la tabla Impuesto
+INSERT INTO Impuesto (Monto, TipoImpuestoID)
+VALUES 
+(13.00, 1),  -- Impuesto del 13% (IVA)
+(15.00, 2),  -- Impuesto del 15% (ISR)
+(1.00, 3);   -- Otro impuesto del 1% (Otro)
+GO

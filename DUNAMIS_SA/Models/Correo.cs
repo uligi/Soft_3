@@ -1,5 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DUNAMIS_SA.Models
 {
@@ -7,17 +8,13 @@ namespace DUNAMIS_SA.Models
     {
         [Key]
         public int CorreoID { get; set; }
-
         [Required]
         [StringLength(255)]
-        public string Direccion { get; set; }
-
+        public string DireccionCorreo { get; set; }
         [Required]
         public int TipoCorreoID { get; set; }
-
         [ForeignKey("TipoCorreoID")]
         public TipoCorreo TipoCorreo { get; set; }
-
         public ICollection<Persona> Personas { get; set; }
     }
 }

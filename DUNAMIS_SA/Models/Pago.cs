@@ -1,6 +1,5 @@
-﻿namespace DUNAMIS_SA.Models
-{
-    using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DUNAMIS_SA.Models
@@ -9,16 +8,13 @@ namespace DUNAMIS_SA.Models
     {
         [Key]
         public int PagoID { get; set; }
-
         [Required]
         [StringLength(255)]
         public string PagoDescripcion { get; set; }
-
         [Required]
         public int TipoPagoID { get; set; }
-
         [ForeignKey("TipoPagoID")]
         public TipoPago TipoPago { get; set; }
+        public ICollection<Cliente> Clientes { get; set; }
     }
-}
 }

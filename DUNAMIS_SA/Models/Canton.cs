@@ -1,5 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DUNAMIS_SA.Models
 {
@@ -7,17 +8,13 @@ namespace DUNAMIS_SA.Models
     {
         [Key]
         public int CantonID { get; set; }
-
         [Required]
         [StringLength(255)]
-        public string Descripcion { get; set; }
-
+        public string Descripcion { get; set; }  
         [Required]
         public int ProvinciaID { get; set; }
-
         [ForeignKey("ProvinciaID")]
         public Provincia Provincia { get; set; }
-
         public ICollection<Distrito> Distritos { get; set; }
     }
 }

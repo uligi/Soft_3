@@ -11,7 +11,7 @@ GO
 INSERT INTO Impuesto (Monto, TipoImpuestoID)
 VALUES 
 (13.00, 1),  -- Impuesto del 13% (IVA)
-(15.00, 2),  -- Impuesto del 15% (ISR)
+(11.00, 2),  -- Impuesto del 11% (ISR)
 (1.00, 3);   -- Otro impuesto del 1% (Otro)
 GO
 

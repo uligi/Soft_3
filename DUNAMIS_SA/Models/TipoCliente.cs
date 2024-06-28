@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace DUNAMIS_SA.Models
 {
@@ -6,11 +7,9 @@ namespace DUNAMIS_SA.Models
     {
         [Key]
         public int TipoClienteID { get; set; }
-
         [Required]
-        [StringLength(255)]
+        [StringLength(45)]
         public string Descripcion { get; set; }
-
         public ICollection<Cliente> Clientes { get; set; }
     }
 }

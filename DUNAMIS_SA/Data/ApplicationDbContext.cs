@@ -68,11 +68,6 @@ namespace DUNAMIS_SA.Data
                 .WithOne(u => u.Persona)
                 .HasForeignKey(u => u.Cedula);
 
-            modelBuilder.Entity<Persona>()
-                .HasOne(p => p.Pago)
-                .WithMany(pa => pa.Personas)
-                .HasForeignKey(p => p.PagoID);
-
             modelBuilder.Entity<TipoCliente>()
                 .HasMany(tc => tc.Clientes)
                 .WithOne(c => c.TipoCliente)
@@ -147,19 +142,6 @@ namespace DUNAMIS_SA.Data
                 .HasMany(tp => tp.Pagos)
                 .WithOne(p => p.TipoPago)
                 .HasForeignKey(p => p.TipoPagoID);
-
-            // Claves compuestas
-            modelBuilder.Entity<Cliente>()
-                .HasKey(c => new { c.Cedula, c.TipoClienteID });
-
-            modelBuilder.Entity<Telefono>()
-                .HasKey(t => new { t.TelefonoID, t.TipoTelefonoID });
-
-            modelBuilder.Entity<Correo>()
-                .HasKey(c => new { c.CorreoID, c.TipoCorreoID });
-
-            modelBuilder.Entity<DetalleDeFactura>()
-                .HasKey(df => new { df.FacturaID, df.CargaID, df.UsuarioID, df.ImpuestoID, df.DescuentoID });
         }
     }
 }

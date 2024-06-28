@@ -77,3 +77,43 @@ BEGIN
     INNER JOIN TipoCliente tc ON c.TipoClienteID = tc.TipoClienteID;
 END
 GO
+
+
+---Procedimiento Almacenado para Crear un Empleado
+CREATE PROCEDURE spCrearEmpleado
+    @Cedula INT,
+    @Nombre VARCHAR(255),
+    @Apellido1 VARCHAR(255),
+    @Apellido2 VARCHAR(255),
+    @DireccionID INT,
+    @TelefonoID INT,
+    @CorreoID INT,
+    @PagoID INT,
+    @RolID INT, -- Se espera que 1 = Administrador y 2 = Empleado
+    @UsuarioNombre VARCHAR(255),
+    @UsuarioCorreo VARCHAR(255),
+    @UsuarioContrasena VARCHAR(255)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRANSACTION;
+
+    BEGIN TRY
+        -- Insertar en la tabla Persona
+        INSERT INTO Persona (Cedula, Nombre, Apellido1, Apellido2, DireccionID, TelefonoID, CorreoID, PagoID)
+        VALUES (@Cedula, @Nombre, @Apellido1, @Apellido2, @DireccionID, @TelefonoID, @CorreoID, @PagoID);
+
+        -- Insertar en la tabla Usuarios
+        INSERT INTO Usuarios (Nombre, Correo, Contrasena, RolID, Cedula)
+        VALUES (@UsuarioNombre, @UsuarioCorreo, @UsuarioContrasena, @RolID, @Cedula);
+
+        COMMIT TRANSACTION;
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        THROW;
+    END CATCH
+END
+GO
+
