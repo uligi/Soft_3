@@ -6,22 +6,38 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Add Entity Framework Core services
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Obtiene el nombre de la maquina
+string machineName = Environment.MachineName;
+string connectionString = null;
 
-// Add authentication services
-builder.Services.AddAuthentication("CookieAuthentication")
-    .AddCookie("CookieAuthentication", options =>
-    {
-        options.Cookie.HttpOnly = true;
-        options.Cookie.IsEssential = true;
-        options.LoginPath = "/Auth/Login";
-        options.LogoutPath = "/Auth/Logout";
-        options.AccessDeniedPath = "/Auth/AccessDenied";
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
-        options.SlidingExpiration = true;
-    });
+// Selecciona la conexion por el nombre
+switch (machineName)
+{
+    case "Team1MachineName":
+        connectionString = builder.Configuration.GetConnectionString("Team1Connection");
+        break;
+    case "Team2MachineName":
+        connectionString = builder.Configuration.GetConnectionString("Team2Connection");
+        break;
+    case "Team3MachineName":
+        connectionString = builder.Configuration.GetConnectionString("Team3Connection");
+        break;
+    case "Team4MachineName":
+        connectionString = builder.Configuration.GetConnectionString("Team3Connection");
+        break;
+    case "Team5MachineName":
+        connectionString = builder.Configuration.GetConnectionString("Team3Connection");
+        break;
+    default:
+        connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+        break;
+}
+
+// Ensure connectionString is not null
+connectionString ??= builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
@@ -29,6 +45,7 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -37,7 +54,6 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

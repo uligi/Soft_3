@@ -1,0 +1,116 @@
+﻿@model IEnumerable<DUNAMIS_SA.Models.Carga>
+
+@{
+    ViewData["Title"] = "Cargas";
+}
+
+<h1>Cargas</h1>
+
+<div class="main-content">
+    <form id="cargaForm">
+        <input type="hidden" id="CargaID" name="CargaID" value="0" />
+        <div class="form-group">
+            <label for="Peso">Peso</label>
+            <input type="text" id="Peso" name="Peso" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="FechaEnvio">Fecha de Envío</label>
+            <input type="date" id="FechaEnvio" name="FechaEnvio" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="Destino">Destino</label>
+            <input type="text" id="Destino" name="Destino" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="TipoDeCargaID">Tipo de Carga</label>
+            <input type="text" id="TipoDeCargaID" name="TipoDeCargaID" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="ClienteID">Cliente</label>
+            <input type="text" id="ClienteID" name="ClienteID" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+    </form>
+
+    <table class="table" id="cargaTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Peso</th>
+                <th>Fecha de Envío</th>
+                <th>Destino</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr data-id="@item.CargaID">
+                    <td>@item.CargaID</td>
+                    <td>@item.Peso</td>
+                    <td>@item.FechaEnvio.ToString("yyyy-MM-dd")</td>
+                    <td>@item.Destino</td>
+                    <td>
+                        <button class="btn btn-warning edit-button">Editar</button>
+                        <button class="btn btn-danger delete-button">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#cargaForm').on('submit', function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: '@Url.Action("CreateOrUpdate", "Carga")',
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function (response) {
+                        if (response.success) {
+                            location.reload();
+                        } else {
+                            alert(response.message);
+                        }
+                    }
+                });
+            });
+
+            $('.edit-button').on('click', function () {
+                var row = $(this).closest('tr');
+                var cargaID = row.data('id');
+                $('#CargaID').val(cargaID);
+                $('#Peso').val(row.find('td:eq(1)').text());
+                $('#FechaEnvio').val(row.find('td:eq(2)').text());
+                $('#Destino').val(row.find('td:eq(3)').text());
+                $('#TipoDeCargaID').val(row.find('td:eq(4)').text());
+                $('#ClienteID').val(row.find('td:eq(5)').text());
+            });
+
+            $('.delete-button').on('click', function () {
+                if (confirm('¿Estás seguro de que quieres eliminar esta carga?')) {
+                    var row = $(this).closest('tr');
+                    var cargaID = row.data('id');
+                    $.ajax({
+                        url: '@Url.Action("Delete", "Carga")',
+                        type: 'POST',
+                        data: { id: cargaID },
+                        success: function (response) {
+                            if (response.success) {
+                                location.reload();
+                            } else {
+                                alert(response.message);
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

@@ -3,18 +3,21 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DUNAMIS_SA.Models
 {
-    public class TipoDeCarga
+    public class Direccion
     {
         [Key]
-        public int TipoDeCargaID { get; set; }
+        public int DireccionID { get; set; }
 
         [Required]
         [StringLength(255)]
         public string Descripcion { get; set; }
 
         [Required]
-        public decimal TarifaPorKilo { get; set; }
+        public int DistritoID { get; set; }
 
-        public ICollection<Carga> Cargas { get; set; }
+        [ForeignKey("DistritoID")]
+        public Distrito Distrito { get; set; }
+
+        public ICollection<Persona> Personas { get; set; }
     }
 }

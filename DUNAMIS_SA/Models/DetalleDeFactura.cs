@@ -1,13 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DUNAMIS_SA.Models
 {
     public class DetalleDeFactura
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int idDetallesDeFactura { get; set; }
+        public int DetalleDeFacturaID { get; set; }
 
         [Required]
         public decimal Total { get; set; }
@@ -21,19 +21,25 @@ namespace DUNAMIS_SA.Models
         [Required]
         public int FacturaID { get; set; }
 
-        [ForeignKey("FacturaID")]
-        public Factura Factura { get; set; }
-
         [Required]
         public int CargaID { get; set; }
-
-        [ForeignKey("CargaID")]
-        public Cargas Carga { get; set; }
 
         [Required]
         public int UsuarioID { get; set; }
 
-        [ForeignKey("UsuarioID")]
+        [Required]
+        public int ImpuestoID { get; set; }
+
+        [Required]
+        public int DescuentoID { get; set; }
+
+        [Required]
+        public DateTime FechaDeEmision { get; set; }
+
+        public Factura Factura { get; set; }
+        public Carga Carga { get; set; }
         public Usuarios Usuario { get; set; }
+        public Impuesto Impuestos { get; set; }
+        public Descuento Descuentos { get; set; }
     }
 }

@@ -6,8 +6,7 @@ namespace DUNAMIS_SA.Models
     public class Factura
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int idFacturas { get; set; }
+        public int FacturaID { get; set; }
 
         [Required]
         public DateTime Fecha { get; set; }
@@ -24,7 +23,11 @@ namespace DUNAMIS_SA.Models
         [Required]
         public int ClienteID { get; set; }
 
-        [ForeignKey("ClienteID")]
+        [Required]
+        public int CargaID { get; set; }
+
         public Cliente Cliente { get; set; }
+        public Carga Carga { get; set; }
+        public ICollection<DetalleDeFactura> DetallesDeFactura { get; set; }
     }
 }

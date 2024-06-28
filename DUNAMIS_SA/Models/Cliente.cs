@@ -1,28 +1,27 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DUNAMIS_SA.Models
 {
     public class Cliente
     {
-           
         [Key]
+        public int ClienteID { get; set; }
+
+        [Required]
         public int Cedula { get; set; }
 
         [Required]
-        [StringLength(255)]
-        public string Nombre { get; set; } = string.Empty;
+        public int TipoClienteID { get; set; }
 
-        [Required]
-        [StringLength(255)]
-        public string Correo { get; set; } = string.Empty;
+        [ForeignKey("Cedula")]
+        public Persona Persona { get; set; }
 
-        [Required]
-        [StringLength(50)]
-        public string Telefono { get; set; } = string.Empty;
+        [ForeignKey("TipoClienteID")]
+        public TipoCliente TipoCliente { get; set; }
 
-        [Required]
-        [StringLength(255)]
-        public string Direccion { get; set; } = string.Empty;
+        public ICollection<Carga> Cargas { get; set; }
+        public ICollection<Factura> Facturas { get; set; }
     }
 }
-
