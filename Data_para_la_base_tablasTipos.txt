@@ -1,0 +1,70 @@
+---Llenar la Tabla `TipoTelefono`
+
+
+INSERT INTO TipoTelefono (Descripcion)
+VALUES ('Celular'), ('Casa'), ('Oficina');
+GO
+
+
+---Llenar la Tabla `TipoCorreo`
+
+
+INSERT INTO TipoCorreo (Descripcion)
+VALUES ('Personal'), ('Trabajo'), ('Otro');
+GO
+
+---Llenar la Tabla `TipoPago`
+
+
+INSERT INTO TipoPago (Tipo)
+VALUES ('Tarjeta de Crédito'), ('Tarjeta de Débito'), ('Efectivo'), ('Transferencia Bancaria');
+GO
+
+
+---Llenar la Tabla `TipoCliente`
+
+
+INSERT INTO TipoCliente (Descripcion)
+VALUES ('Regular'), ('Premium'), ('VIP');
+GO
+
+
+--- Llenar la Tabla `TipoRol`
+
+
+INSERT INTO TipoRol (Descripcion)
+VALUES ('Administrador'), ('Empleado'), ('Cliente');
+GO
+
+
+USE DUNAMIS_SA;
+GO
+--- Llenar la Tabla `TipoImpuesto`
+
+
+INSERT INTO TipoImpuesto (Descripcion)
+VALUES ('IVA'), ('ISR'), ('Otro');
+GO
+
+
+--- Llenar la Tabla `TipoDescuento`
+
+
+INSERT INTO TipoDescuento (Descripcion)
+VALUES ('Porcentaje'), ('Monto Fijo'), ('Promoción');
+GO
+
+
+---Verificar los Datos Insertados
+
+
+SELECT * FROM TipoTelefono;
+SELECT * FROM TipoCorreo;
+SELECT * FROM TipoPago;
+SELECT * FROM TipoCliente;
+SELECT * FROM TipoRol;
+SELECT * FROM TipoImpuesto;
+SELECT * FROM TipoDescuento;
+GO
+
+
