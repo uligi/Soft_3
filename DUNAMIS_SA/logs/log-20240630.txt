@@ -1,0 +1,327 @@
+2024-06-30 16:01:13.890 -06:00 [INF] User profile is available. Using 'C:\Users\ul13m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-30 16:01:14.382 -06:00 [INF] Now listening on: https://localhost:7091
+2024-06-30 16:01:14.384 -06:00 [INF] Now listening on: http://localhost:5059
+2024-06-30 16:01:14.386 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-30 16:01:14.386 -06:00 [INF] Hosting environment: Development
+2024-06-30 16:01:14.387 -06:00 [INF] Content root path: C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA
+2024-06-30 16:01:15.021 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 16:01:15.188 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-06-30 16:01:15.226 -06:00 [INF] AuthenticationScheme: Cookies was challenged.
+2024-06-30 16:01:15.230 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 302 0 null 213.9314ms
+2024-06-30 16:01:15.233 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login?ReturnUrl=%2F - null null
+2024-06-30 16:01:15.246 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 16:01:15.272 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 16:01:15.562 -06:00 [INF] Executing ViewResult, running view Login.
+2024-06-30 16:01:15.802 -06:00 [INF] Executed ViewResult - view Login executed in 241.0283ms.
+2024-06-30 16:01:15.804 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 529.8009ms
+2024-06-30 16:01:15.805 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 16:01:15.808 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 574.7493ms
+2024-06-30 16:01:15.811 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-06-30 16:01:15.812 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 16:01:15.812 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/Styles.css - null null
+2024-06-30 16:01:15.812 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/jquery/dist/jquery.min.js - null null
+2024-06-30 16:01:15.811 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/Styles.css?v=1mtaveVYu5uGE9_PYUaerV2H7PZz-iGXUhyR8MJ6Gtc - null null
+2024-06-30 16:01:15.811 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-06-30 16:01:15.817 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-06-30 16:01:15.821 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-06-30 16:01:15.853 -06:00 [INF] Sending file. Request path: '/css/Styles.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\css\Styles.css'
+2024-06-30 16:01:15.855 -06:00 [INF] Sending file. Request path: '/css/Styles.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\css\Styles.css'
+2024-06-30 16:01:15.825 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 16:01:15.855 -06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\css\site.css'
+2024-06-30 16:01:15.851 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 39.7291ms
+2024-06-30 16:01:15.858 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-06-30 16:01:15.859 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/Styles.css?v=1mtaveVYu5uGE9_PYUaerV2H7PZz-iGXUhyR8MJ6Gtc - 200 3722 text/css 47.5411ms
+2024-06-30 16:01:15.858 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/Styles.css - 200 3722 text/css 46.4673ms
+2024-06-30 16:01:15.864 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 53.3587ms
+2024-06-30 16:01:15.861 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 49.8681ms
+2024-06-30 16:01:15.873 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - null null
+2024-06-30 16:01:15.858 -06:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\js\site.js'
+2024-06-30 16:01:15.881 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-06-30 16:01:15.884 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 63.4142ms
+2024-06-30 16:01:15.885 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - 404 0 null 12.5006ms
+2024-06-30 16:01:15.885 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 68.8157ms
+2024-06-30 16:01:15.888 -06:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-06-30 16:01:15.891 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/css/path_to_your_image.jpg, Response status code: 404
+2024-06-30 16:01:15.894 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 81.8141ms
+2024-06-30 16:01:15.902 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.1201ms
+2024-06-30 16:01:23.012 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Auth/Login - application/x-www-form-urlencoded 227
+2024-06-30 16:01:23.017 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 16:01:23.027 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 16:01:23.558 -06:00 [WRN] No store type was specified for the decimal property 'Peso' on entity type 'Carga'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 16:01:23.559 -06:00 [WRN] No store type was specified for the decimal property 'Monto' on entity type 'Descuento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 16:01:23.560 -06:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DetalleDeFactura'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 16:01:23.561 -06:00 [WRN] No store type was specified for the decimal property 'TotalFinal' on entity type 'Factura'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 16:01:23.561 -06:00 [WRN] No store type was specified for the decimal property 'TotalSinDescuento' on entity type 'Factura'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 16:01:23.562 -06:00 [WRN] No store type was specified for the decimal property 'Monto' on entity type 'Impuesto'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 16:01:23.563 -06:00 [WRN] No store type was specified for the decimal property 'TarifaPorKilo' on entity type 'TipoDeCarga'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 16:01:24.442 -06:00 [INF] Executed DbCommand (72ms) [Parameters=[@__email_0='?' (Size = 255), @__password_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UsuarioID], [u].[Cedula], [u].[Contrasena], [u].[Correo], [u].[Nombre], [u].[RolID]
+FROM [Usuarios] AS [u]
+WHERE [u].[Correo] = @__email_0 AND [u].[Contrasena] = @__password_1
+2024-06-30 16:01:24.495 -06:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-06-30 16:01:24.497 -06:00 [INF] Executing RedirectResult, redirecting to /.
+2024-06-30 16:01:24.498 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 1469.6093ms
+2024-06-30 16:01:24.499 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 16:01:24.503 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 16:01:24.505 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Auth/Login - 302 0 null 1493.1387ms
+2024-06-30 16:01:24.508 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 16:01:24.510 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 16:01:24.584 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 16:01:24.696 -06:00 [INF] Executed ViewResult - view Index executed in 113.4446ms.
+2024-06-30 16:01:24.697 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 186.5931ms
+2024-06-30 16:01:24.699 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 16:01:24.700 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 197.352ms
+2024-06-30 16:01:24.709 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 16:01:24.709 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 16:01:24.714 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.9484ms
+2024-06-30 16:01:24.719 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - null null
+2024-06-30 16:01:24.722 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.876ms
+2024-06-30 16:01:24.724 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - 404 0 null 5.3806ms
+2024-06-30 16:01:24.729 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/css/path_to_your_image.jpg, Response status code: 404
+2024-06-30 16:01:30.423 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/cotizacion_cargas.html - null null
+2024-06-30 16:01:30.429 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/cotizacion_cargas.html - 404 0 null 6.1243ms
+2024-06-30 16:01:30.431 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/cotizacion_cargas.html, Response status code: 404
+2024-06-30 16:01:34.099 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 16:01:34.105 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 16:01:34.106 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 16:01:34.108 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 16:01:34.110 -06:00 [INF] Executed ViewResult - view Index executed in 1.7922ms.
+2024-06-30 16:01:34.110 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 3.0083ms
+2024-06-30 16:01:34.111 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 16:01:34.113 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 14.2666ms
+2024-06-30 16:01:34.129 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 16:01:34.133 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.201ms
+2024-06-30 17:02:10.912 -06:00 [INF] User profile is available. Using 'C:\Users\ul13m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-30 17:02:11.151 -06:00 [INF] Now listening on: https://localhost:7091
+2024-06-30 17:02:11.151 -06:00 [INF] Now listening on: http://localhost:5059
+2024-06-30 17:02:11.153 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-30 17:02:11.153 -06:00 [INF] Hosting environment: Development
+2024-06-30 17:02:11.154 -06:00 [INF] Content root path: C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA
+2024-06-30 17:02:11.718 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 17:02:11.895 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-06-30 17:02:11.906 -06:00 [INF] AuthenticationScheme: Cookies was challenged.
+2024-06-30 17:02:11.910 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 302 0 null 197.0935ms
+2024-06-30 17:02:11.915 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login?ReturnUrl=%2F - null null
+2024-06-30 17:02:11.928 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:02:11.957 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 17:02:12.131 -06:00 [INF] Executing ViewResult, running view Login.
+2024-06-30 17:02:12.316 -06:00 [INF] Executed ViewResult - view Login executed in 185.5651ms.
+2024-06-30 17:02:12.319 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 359.3539ms
+2024-06-30 17:02:12.321 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:02:12.330 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:02:12.330 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 415.8041ms
+2024-06-30 17:02:12.331 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 17:02:12.341 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - null null
+2024-06-30 17:02:12.344 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 13.9631ms
+2024-06-30 17:02:12.350 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - 404 0 null 9.4836ms
+2024-06-30 17:02:12.353 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/css/path_to_your_image.jpg, Response status code: 404
+2024-06-30 17:02:12.372 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.5387ms
+2024-06-30 17:02:18.243 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Auth/Login - application/x-www-form-urlencoded 227
+2024-06-30 17:02:18.247 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:02:18.255 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 17:02:18.685 -06:00 [WRN] No store type was specified for the decimal property 'Peso' on entity type 'Carga'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 17:02:18.686 -06:00 [WRN] No store type was specified for the decimal property 'Monto' on entity type 'Descuento'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 17:02:18.687 -06:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'DetalleDeFactura'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 17:02:18.687 -06:00 [WRN] No store type was specified for the decimal property 'TotalFinal' on entity type 'Factura'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 17:02:18.688 -06:00 [WRN] No store type was specified for the decimal property 'TotalSinDescuento' on entity type 'Factura'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 17:02:18.689 -06:00 [WRN] No store type was specified for the decimal property 'Monto' on entity type 'Impuesto'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 17:02:18.690 -06:00 [WRN] No store type was specified for the decimal property 'TarifaPorKilo' on entity type 'TipoDeCarga'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-06-30 17:02:19.219 -06:00 [INF] Executed DbCommand (32ms) [Parameters=[@__email_0='?' (Size = 255), @__password_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UsuarioID], [u].[Cedula], [u].[Contrasena], [u].[Correo], [u].[Nombre], [u].[RolID]
+FROM [Usuarios] AS [u]
+WHERE [u].[Correo] = @__email_0 AND [u].[Contrasena] = @__password_1
+2024-06-30 17:02:19.264 -06:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-06-30 17:02:19.266 -06:00 [INF] Executing RedirectResult, redirecting to /.
+2024-06-30 17:02:19.267 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 1010.17ms
+2024-06-30 17:02:19.268 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:02:19.271 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 17:02:19.272 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Auth/Login - 302 0 null 1029.9499ms
+2024-06-30 17:02:19.275 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:02:19.277 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 17:02:19.326 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 17:02:19.406 -06:00 [INF] Executed ViewResult - view Index executed in 81.0603ms.
+2024-06-30 17:02:19.408 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 129.2397ms
+2024-06-30 17:02:19.409 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:02:19.410 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 139.0376ms
+2024-06-30 17:02:19.422 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 17:02:19.423 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:02:19.428 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.8719ms
+2024-06-30 17:02:19.429 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - null null
+2024-06-30 17:02:19.444 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0365ms
+2024-06-30 17:02:19.444 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - 404 0 null 15.3634ms
+2024-06-30 17:02:19.448 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/css/path_to_your_image.jpg, Response status code: 404
+2024-06-30 17:06:08.384 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Auth/Logout - application/x-www-form-urlencoded 225
+2024-06-30 17:06:08.394 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Logout (DUNAMIS_SA)'
+2024-06-30 17:06:08.397 -06:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 17:06:08.401 -06:00 [INF] AuthenticationScheme: Cookies signed out.
+2024-06-30 17:06:08.402 -06:00 [INF] Executing RedirectResult, redirecting to /Auth/Login.
+2024-06-30 17:06:08.402 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Logout (DUNAMIS_SA) in 3.7581ms
+2024-06-30 17:06:08.403 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Logout (DUNAMIS_SA)'
+2024-06-30 17:06:08.404 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Auth/Logout - 302 0 null 20.8517ms
+2024-06-30 17:06:08.406 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login - null null
+2024-06-30 17:06:08.408 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:06:08.409 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 17:06:08.411 -06:00 [INF] Executing ViewResult, running view Login.
+2024-06-30 17:06:08.412 -06:00 [INF] Executed ViewResult - view Login executed in 1.4049ms.
+2024-06-30 17:06:08.413 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 2.4812ms
+2024-06-30 17:06:08.414 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:06:08.415 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login - 200 null text/html; charset=utf-8 9.2467ms
+2024-06-30 17:06:08.426 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:06:08.427 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 17:06:08.429 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 2.8148ms
+2024-06-30 17:06:08.450 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.5598ms
+2024-06-30 17:06:11.232 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Auth/Login - application/x-www-form-urlencoded 227
+2024-06-30 17:06:11.236 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:06:11.237 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 17:06:11.252 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='?' (Size = 255), @__password_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UsuarioID], [u].[Cedula], [u].[Contrasena], [u].[Correo], [u].[Nombre], [u].[RolID]
+FROM [Usuarios] AS [u]
+WHERE [u].[Correo] = @__email_0 AND [u].[Contrasena] = @__password_1
+2024-06-30 17:06:11.254 -06:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-06-30 17:06:11.255 -06:00 [INF] Executing RedirectResult, redirecting to /.
+2024-06-30 17:06:11.256 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 18.1003ms
+2024-06-30 17:06:11.256 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:06:11.257 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Auth/Login - 302 0 null 25.0118ms
+2024-06-30 17:06:11.259 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 17:06:11.263 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:06:11.264 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 17:06:11.265 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 17:06:11.267 -06:00 [INF] Executed ViewResult - view Index executed in 1.5282ms.
+2024-06-30 17:06:11.268 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 2.6124ms
+2024-06-30 17:06:11.268 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:06:11.269 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 9.9609ms
+2024-06-30 17:06:11.278 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 17:06:11.278 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:06:11.283 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.734ms
+2024-06-30 17:06:11.291 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.1978ms
+2024-06-30 17:10:32.864 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-06-30 17:10:32.873 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2024-06-30 17:10:32.916 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2024-06-30 17:10:32.916 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-06-30 17:10:32.917 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 449111 text/plain 44.2446ms
+2024-06-30 17:10:32.918 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 55.5828ms
+2024-06-30 17:10:36.594 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Auth/Logout - application/x-www-form-urlencoded 225
+2024-06-30 17:10:36.600 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Logout (DUNAMIS_SA)'
+2024-06-30 17:10:36.600 -06:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 17:10:36.602 -06:00 [INF] AuthenticationScheme: Cookies signed out.
+2024-06-30 17:10:36.603 -06:00 [INF] Executing RedirectResult, redirecting to /Auth/Login.
+2024-06-30 17:10:36.603 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Logout (DUNAMIS_SA) in 1.8661ms
+2024-06-30 17:10:36.604 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Logout (DUNAMIS_SA)'
+2024-06-30 17:10:36.605 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Auth/Logout - 302 0 null 10.6754ms
+2024-06-30 17:10:36.608 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login - null null
+2024-06-30 17:10:36.610 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:10:36.611 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 17:10:36.612 -06:00 [INF] Executing ViewResult, running view Login.
+2024-06-30 17:10:36.613 -06:00 [INF] Executed ViewResult - view Login executed in 1.1872ms.
+2024-06-30 17:10:36.614 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 1.9873ms
+2024-06-30 17:10:36.615 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:10:36.615 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login - 200 null text/html; charset=utf-8 7.9446ms
+2024-06-30 17:10:36.629 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:10:36.629 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 17:10:36.632 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 3.4825ms
+2024-06-30 17:10:36.649 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.5022ms
+2024-06-30 17:10:36.651 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - null null
+2024-06-30 17:10:36.655 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - 404 0 null 4.389ms
+2024-06-30 17:10:36.656 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/css/path_to_your_image.jpg, Response status code: 404
+2024-06-30 17:10:42.662 -06:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Auth/Login - application/x-www-form-urlencoded 227
+2024-06-30 17:10:42.665 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:10:42.666 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-06-30 17:10:42.706 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='?' (Size = 255), @__password_1='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UsuarioID], [u].[Cedula], [u].[Contrasena], [u].[Correo], [u].[Nombre], [u].[RolID]
+FROM [Usuarios] AS [u]
+WHERE [u].[Correo] = @__email_0 AND [u].[Contrasena] = @__password_1
+2024-06-30 17:10:42.707 -06:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-06-30 17:10:42.708 -06:00 [INF] Executing RedirectResult, redirecting to /.
+2024-06-30 17:10:42.709 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 41.4798ms
+2024-06-30 17:10:42.709 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-06-30 17:10:42.710 -06:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Auth/Login - 302 0 null 47.9398ms
+2024-06-30 17:10:42.712 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 17:10:42.715 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:42.716 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 17:10:42.717 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 17:10:42.718 -06:00 [INF] Executed ViewResult - view Index executed in 1.2545ms.
+2024-06-30 17:10:42.719 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 2.1936ms
+2024-06-30 17:10:42.720 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:42.721 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 9.064ms
+2024-06-30 17:10:42.732 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 17:10:42.734 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:10:42.739 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.1825ms
+2024-06-30 17:10:42.744 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.2049ms
+2024-06-30 17:10:42.744 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - null null
+2024-06-30 17:10:42.750 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - 404 0 null 6.4155ms
+2024-06-30 17:10:42.756 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/css/path_to_your_image.jpg, Response status code: 404
+2024-06-30 17:10:46.129 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/creacion_factura.html - null null
+2024-06-30 17:10:46.133 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/creacion_factura.html - 404 0 null 3.6412ms
+2024-06-30 17:10:46.134 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/creacion_factura.html, Response status code: 404
+2024-06-30 17:10:46.166 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2024-06-30 17:10:46.175 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2024-06-30 17:10:46.176 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 449111 text/plain 10.8568ms
+2024-06-30 17:10:47.756 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 17:10:47.760 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:47.761 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 17:10:47.762 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 17:10:47.763 -06:00 [INF] Executed ViewResult - view Index executed in 1.2923ms.
+2024-06-30 17:10:47.765 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 2.6582ms
+2024-06-30 17:10:47.767 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:47.767 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 11.6378ms
+2024-06-30 17:10:47.785 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:10:47.789 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.7848ms
+2024-06-30 17:10:48.920 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/registrar_empleado.html - null null
+2024-06-30 17:10:48.923 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/registrar_empleado.html - 404 0 null 3.5193ms
+2024-06-30 17:10:48.925 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/registrar_empleado.html, Response status code: 404
+2024-06-30 17:10:48.960 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2024-06-30 17:10:48.975 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2024-06-30 17:10:48.976 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 449111 text/plain 16.7989ms
+2024-06-30 17:10:50.100 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 17:10:50.103 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:50.104 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 17:10:50.105 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 17:10:50.107 -06:00 [INF] Executed ViewResult - view Index executed in 1.5846ms.
+2024-06-30 17:10:50.108 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 2.8433ms
+2024-06-30 17:10:50.109 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:50.110 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 10.5731ms
+2024-06-30 17:10:50.129 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:10:50.132 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 4.0121ms
+2024-06-30 17:10:50.764 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/generacion_reportes.html - null null
+2024-06-30 17:10:50.767 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/generacion_reportes.html - 404 0 null 3.4102ms
+2024-06-30 17:10:50.769 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/generacion_reportes.html, Response status code: 404
+2024-06-30 17:10:50.805 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2024-06-30 17:10:50.822 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2024-06-30 17:10:50.823 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 449111 text/plain 18.7064ms
+2024-06-30 17:10:51.973 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 17:10:51.976 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:51.977 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 17:10:51.978 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 17:10:51.979 -06:00 [INF] Executed ViewResult - view Index executed in 1.2548ms.
+2024-06-30 17:10:51.980 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 2.2785ms
+2024-06-30 17:10:51.981 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:51.982 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 9.6792ms
+2024-06-30 17:10:51.997 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:10:51.999 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 2.6751ms
+2024-06-30 17:10:52.694 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Cliente/RegistrarCliente - null null
+2024-06-30 17:10:52.697 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.ClienteController.RegistrarCliente (DUNAMIS_SA)'
+2024-06-30 17:10:52.699 -06:00 [INF] Route matched with {action = "RegistrarCliente", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegistrarCliente() on controller DUNAMIS_SA.Controllers.ClienteController (DUNAMIS_SA).
+2024-06-30 17:10:52.700 -06:00 [INF] Executing ViewResult, running view RegistrarCliente.
+2024-06-30 17:10:52.711 -06:00 [INF] Executed ViewResult - view RegistrarCliente executed in 11.5744ms.
+2024-06-30 17:10:52.716 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/RegistrarCliente.css - null null
+2024-06-30 17:10:52.717 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-06-30 17:10:52.716 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.ClienteController.RegistrarCliente (DUNAMIS_SA) in 17.0337ms
+2024-06-30 17:10:52.717 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:10:52.725 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.ClienteController.RegistrarCliente (DUNAMIS_SA)'
+2024-06-30 17:10:52.729 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 11.7709ms
+2024-06-30 17:10:52.733 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Cliente/RegistrarCliente - 200 null text/html; charset=utf-8 39.5984ms
+2024-06-30 17:10:52.735 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.3141ms
+2024-06-30 17:10:52.739 -06:00 [INF] Sending file. Request path: '/css/RegistrarCliente.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\css\RegistrarCliente.css'
+2024-06-30 17:10:52.741 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/RegistrarCliente.css - 200 1861 text/css 25.5118ms
+2024-06-30 17:10:55.201 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/ - null null
+2024-06-30 17:10:55.204 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:55.205 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DUNAMIS_SA.Controllers.HomeController (DUNAMIS_SA).
+2024-06-30 17:10:55.207 -06:00 [INF] Executing ViewResult, running view Index.
+2024-06-30 17:10:55.209 -06:00 [INF] Executed ViewResult - view Index executed in 2.3477ms.
+2024-06-30 17:10:55.210 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA) in 3.7699ms
+2024-06-30 17:10:55.211 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.HomeController.Index (DUNAMIS_SA)'
+2024-06-30 17:10:55.212 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/ - 200 null text/html; charset=utf-8 11.1299ms
+2024-06-30 17:10:55.220 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 17:10:55.222 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 3.1639ms

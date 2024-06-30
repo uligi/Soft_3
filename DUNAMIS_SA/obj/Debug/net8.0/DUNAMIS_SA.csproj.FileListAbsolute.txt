@@ -135,3 +135,12 @@ C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\obj\Debug\net8.0\refint\DUNAMI
 C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\obj\Debug\net8.0\DUNAMIS_SA.pdb
 C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\obj\Debug\net8.0\DUNAMIS_SA.genruntimeconfig.cache
 C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\obj\Debug\net8.0\ref\DUNAMIS_SA.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\bin\Debug\net8.0\Serilog.Sinks.File.dll
