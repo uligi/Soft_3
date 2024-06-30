@@ -536,3 +536,12 @@ BEGIN
     WHERE FacturaID = @FacturaID
 END
 GO
+
+USE DUNAMIS_SA;
+GO
+---Procedimiento almacenado 
+CREATE PROCEDURE ObtenerCargas
+AS
+BEGIN
+    SELECT * FROM Cargas;
+END
