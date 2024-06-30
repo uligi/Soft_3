@@ -142,6 +142,11 @@ namespace DUNAMIS_SA.Data
                 .HasMany(tp => tp.Pagos)
                 .WithOne(p => p.TipoPago)
                 .HasForeignKey(p => p.TipoPagoID);
+
+            modelBuilder.Entity<Cliente>()
+                .HasOne(c => c.Pago)
+                .WithMany(pa => pa.Clientes)
+                .HasForeignKey(c => c.PagoID);
         }
     }
 }

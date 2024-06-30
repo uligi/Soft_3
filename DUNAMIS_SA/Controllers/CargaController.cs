@@ -27,7 +27,7 @@ namespace DUNAMIS_SA.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (carga.CargaID == 0)
+                if (carga.CargasID == 0)
                 {
                     _context.Cargas.Add(carga);
                 }

@@ -23,6 +23,10 @@
             <input type="password" id="password" name="password" placeholder="Contraseña" required>
             <a href="forgot-password.html" class="link">Olvidé Contraseña</a>
             <input type="submit" value="Iniciar Sesión" class="button">
+            @if (ViewBag.Error != null)
+            {
+                <div class="error-message">@ViewBag.Error</div>
+            }
         </form>
     </main>
 </body>

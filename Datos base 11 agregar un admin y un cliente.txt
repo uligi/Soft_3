@@ -1,0 +1,47 @@
+
+
+
+USE DUNAMIS_SA;
+GO
+
+-- Agregar un administrador usando el procedimiento almacenado CrearUsuario
+EXEC CrearUsuario 
+    @Cedula = 12345678, 
+    @Nombre = 'Admin', 
+    @Apellido1 = 'Administrador', 
+    @Apellido2 = 'Sistema', 
+    @Direccion = 'Oficina Central', 
+    @DistritoID = 1, 
+    @CantonID = 1, 
+    @ProvinciaID = 1, 
+    @Telefono = '1111-1111', 
+    @TipoTelefonoID = 3, 
+    @Correo = 'admin@sistema.com', 
+    @TipoCorreoID = 2, 
+    @RolID = 1, -- ID para el rol de Administrador
+    @Contrasena = 'admin1234';
+GO
+
+
+
+-- Agregar un cliente usando el procedimiento almacenado CrearCliente
+EXEC CrearCliente 
+    @Cedula = 87654321, 
+    @Nombre = 'Juan', 
+    @Apellido1 = 'Pérez', 
+    @Apellido2 = 'Gómez', 
+    @Direccion = 'Residencia San José', 
+    @DistritoID = 2, 
+    @CantonID = 1, 
+    @ProvinciaID = 1, 
+    @Telefono = '2222-2222', 
+    @TipoTelefonoID = 1, 
+    @Correo = 'juan.perez@correo.com', 
+    @TipoCorreoID = 1, 
+    @TipoClienteID = 1, -- ID para el tipo de cliente Regular
+    @Pago = 'Efectivo', 
+    @TipoPagoID = 1; -- ID para el tipo de pago Efectivo
+GO
+
+
+

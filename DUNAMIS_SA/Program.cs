@@ -1,16 +1,24 @@
 using DUNAMIS_SA.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Obtiene el nombre de la maquina
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Auth/Login";
+        options.AccessDeniedPath = "/Auth/AccessDenied";
+    });
+
+// Obtiene el nombre de la máquina
 string machineName = Environment.MachineName;
 string connectionString = null;
 
-// Selecciona la conexion por el nombre
+// Selecciona la conexión por el nombre de la máquina
 switch (machineName)
 {
     case "Ulises":
@@ -23,10 +31,10 @@ switch (machineName)
         connectionString = builder.Configuration.GetConnectionString("Team3Connection");
         break;
     case "Mario":
-        connectionString = builder.Configuration.GetConnectionString("Team3Connection");
+        connectionString = builder.Configuration.GetConnectionString("Team4Connection");
         break;
     case "Ernesto":
-        connectionString = builder.Configuration.GetConnectionString("Team3Connection");
+        connectionString = builder.Configuration.GetConnectionString("Team5Connection");
         break;
     default:
         connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -54,6 +62,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); // Ensure this line is present
 app.UseAuthorization();
 
 app.MapControllerRoute(

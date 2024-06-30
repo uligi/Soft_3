@@ -8,13 +8,22 @@ namespace DUNAMIS_SA.Models
     {
         [Key]
         public int DistritoID { get; set; }
+
         [Required]
         [StringLength(255)]
         public string Descripcion { get; set; }
+
         [Required]
         public int CantonID { get; set; }
+
         [ForeignKey("CantonID")]
         public Canton Canton { get; set; }
+
         public ICollection<Direccion> Direcciones { get; set; }
+
+        public Distrito()
+        {
+            Direcciones = new HashSet<Direccion>();
+        }
     }
 }

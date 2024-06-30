@@ -38,14 +38,14 @@ namespace DUNAMIS_SA.Controllers
                     new Claim(ClaimTypes.Role, user.RolID == 1 ? "Admin" : "Empleado")
                 };
 
-                var claimsIdentity = new ClaimsIdentity(claims, "CookieAuthentication");
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var authProperties = new AuthenticationProperties
                 {
                     IsPersistent = true,
                     ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(30)
                 };
 
-                await HttpContext.SignInAsync("CookieAuthentication", new ClaimsPrincipal(claimsIdentity), authProperties);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
                 return RedirectToAction("Index", "Home");
             }
             else
@@ -58,7 +58,7 @@ namespace DUNAMIS_SA.Controllers
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
-            await HttpContext.SignOutAsync("CookieAuthentication");
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login");
         }
 

@@ -12,5 +12,10 @@ namespace DUNAMIS_SA.Models
         public string Descripcion { get; set; }
 
         public ICollection<Canton> Cantones { get; set; }
+
+        public Provincia()
+        {
+            Cantones = new HashSet<Canton>();
+        }
     }
 }
