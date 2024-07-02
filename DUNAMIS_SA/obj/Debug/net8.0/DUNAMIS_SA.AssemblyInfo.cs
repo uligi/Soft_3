@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DUNAMIS_SA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+392aaa9f75f3d282b6d5f0ddf73d8015ccabf77c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf8fbc05d6e749917e4a40db990f31d9406be22b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DUNAMIS_SA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DUNAMIS_SA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
