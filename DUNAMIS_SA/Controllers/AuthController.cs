@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace DUNAMIS_SA.Controllers
 {
@@ -27,13 +29,15 @@ namespace DUNAMIS_SA.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string email, string password)
         {
-            var user = _context.Usuarios.FirstOrDefault(u => u.Correo == email && u.Contrasena == password);
+            var user = _context.Usuarios.Include(u => u.Persona).FirstOrDefault(u => u.Correo == email && u.Contrasena == password);
 
             if (user != null)
             {
+                var fullName = $"{user.Persona.Nombre} {user.Persona.Apellido1} {user.Persona.Apellido2}";
+
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, user.Nombre),
+                    new Claim(ClaimTypes.Name, fullName),
                     new Claim(ClaimTypes.Email, user.Correo),
                     new Claim(ClaimTypes.Role, user.RolID == 1 ? "Admin" : "Empleado")
                 };
@@ -46,6 +50,7 @@ namespace DUNAMIS_SA.Controllers
                 };
 
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
                 return RedirectToAction("Index", "Home");
             }
             else
