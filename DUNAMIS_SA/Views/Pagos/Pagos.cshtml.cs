@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace DUNAMIS_SA.Views.Cliente
+namespace DUNAMIS_SA.Views.Pagos
 {
-    public class ListModel : PageModel
+    public class PagosModel : PageModel
     {
         public void OnGet()
         {

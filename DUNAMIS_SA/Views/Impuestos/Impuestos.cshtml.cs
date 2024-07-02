@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace DUNAMIS_SA.Views.Tarifa
+namespace DUNAMIS_SA.Views.Impuestos
 {
-    public class ListModel : PageModel
+    public class ImpuestosModel : PageModel
     {
         public void OnGet()
         {
