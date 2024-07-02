@@ -1,0 +1,72 @@
+﻿@model DUNAMIS_SA.Models.Cliente
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Nuevo Cliente - DUNAMIS SA</title>
+    <link rel="stylesheet" href="~/css/RegistrarCliente.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Registrar nuevo Cliente</h1>
+        <a href="/" class="button small">Menu Inicio</a>
+    </header>
+    <main class="main-content">
+        <form asp-action="RegistrarCliente" method="post" class="register-form">
+            <div class="form-group">
+                <label for="Nombre">Nombre Completo</label>
+                <input type="text" id="Nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="Cedula">ID Cliente</label>
+                <input type="text" id="Cedula" name="cedula" required>
+            </div>
+            <div class="form-group">
+                <label for="Direccion">Dirección</label>
+                <input type="text" id="Direccion" name="direccion" required>
+            </div>
+            <div class="form-group">
+                <label for="DistritoID">Distrito</label>
+                <input type="number" id="DistritoID" name="distritoID" required>
+            </div>
+            <div class="form-group">
+                <label for="CantonID">Cantón</label>
+                <input type="number" id="CantonID" name="cantonID" required>
+            </div>
+            <div class="form-group">
+                <label for="ProvinciaID">Provincia</label>
+                <input type="number" id="ProvinciaID" name="provinciaID" required>
+            </div>
+            <div class="form-group">
+                <label for="Correo">Correo Electrónico</label>
+                <input type="email" id="Correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="TipoCorreoID">Tipo de Correo</label>
+                <input type="number" id="TipoCorreoID" name="tipoCorreoID" required>
+            </div>
+            <div class="form-group">
+                <label for="Telefono">Número de Teléfono</label>
+                <input type="text" id="Telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="TipoTelefonoID">Tipo de Teléfono</label>
+                <input type="number" id="TipoTelefonoID" name="tipoTelefonoID" required>
+            </div>
+            <div class="form-group">
+                <label for="TipoClienteID">Tipo de Cliente</label>
+                <input type="number" id="TipoClienteID" name="tipoClienteID" required>
+            </div>
+            <div class="form-group">
+                <label for="PagoID">Pago</label>
+                <input type="number" id="PagoID" name="pagoID" required>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="button">Agregar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

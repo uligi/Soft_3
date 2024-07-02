@@ -1459,3 +1459,114 @@ WHERE [u].[Correo] = @__email_0 AND [u].[Contrasena] = @__password_1
 2024-07-02 09:41:29.594 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/favicon.ico - null null
 2024-07-02 09:41:29.625 -06:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\favicon.ico'
 2024-07-02 09:41:29.628 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/favicon.ico - 200 5430 image/x-icon 34.1269ms
+2024-07-02 09:41:51.866 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.872 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 5.999ms
+2024-07-02 09:41:51.873 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.880 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 7.5494ms
+2024-07-02 09:41:51.882 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.882 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.915 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 32.7025ms
+2024-07-02 09:41:51.883 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.882 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.899 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.883 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.926 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.917 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 35.0345ms
+2024-07-02 09:41:51.926 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.921 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 38.8742ms
+2024-07-02 09:41:51.923 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 40.5917ms
+2024-07-02 09:41:51.925 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 25.6228ms
+2024-07-02 09:41:51.933 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 49.6379ms
+2024-07-02 09:41:51.925 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.899 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login - null null
+2024-07-02 09:41:51.925 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.935 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 8.8249ms
+2024-07-02 09:41:51.937 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.938 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 11.835ms
+2024-07-02 09:41:51.940 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.949 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 23.8302ms
+2024-07-02 09:41:51.925 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.933 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - null null
+2024-07-02 09:41:51.953 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:51.953 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 27.7844ms
+2024-07-02 09:41:51.957 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 20.3211ms
+2024-07-02 09:41:51.962 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 22.1008ms
+2024-07-02 09:41:51.968 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-07-02 09:41:51.965 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 39.942ms
+2024-07-02 09:41:51.976 -06:00 [INF] Executing ViewResult, running view Login.
+2024-07-02 09:41:51.980 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login - null null
+2024-07-02 09:41:51.982 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login - null null
+2024-07-02 09:41:51.986 -06:00 [INF] Executed ViewResult - view Login executed in 9.7602ms.
+2024-07-02 09:41:51.989 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login - null null
+2024-07-02 09:41:51.991 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:51.991 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 15.2599ms
+2024-07-02 09:41:51.994 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login - null null
+2024-07-02 09:41:51.986 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Auth/Login - null null
+2024-07-02 09:41:51.999 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:51.997 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-07-02 09:41:51.998 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:52.003 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:51.989 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:51.967 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/clear-browser-cache - 200 0 null 33.6966ms
+2024-07-02 09:41:52.005 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-07-02 09:41:52.005 -06:00 [INF] Executing endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:52.006 -06:00 [INF] Executing ViewResult, running view Login.
+2024-07-02 09:41:52.007 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login - 200 null text/html; charset=utf-8 107.9184ms
+2024-07-02 09:41:52.008 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-07-02 09:41:52.008 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-07-02 09:41:52.013 -06:00 [INF] Executing ViewResult, running view Login.
+2024-07-02 09:41:52.013 -06:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller DUNAMIS_SA.Controllers.AuthController (DUNAMIS_SA).
+2024-07-02 09:41:52.014 -06:00 [INF] Executed ViewResult - view Login executed in 7.9805ms.
+2024-07-02 09:41:52.018 -06:00 [INF] Executing ViewResult, running view Login.
+2024-07-02 09:41:52.020 -06:00 [INF] Executing ViewResult, running view Login.
+2024-07-02 09:41:52.021 -06:00 [INF] Executed ViewResult - view Login executed in 8.6931ms.
+2024-07-02 09:41:52.022 -06:00 [INF] Executing ViewResult, running view Login.
+2024-07-02 09:41:52.026 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 13.2219ms
+2024-07-02 09:41:52.023 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 16.865ms
+2024-07-02 09:41:52.033 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:52.033 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login - 200 null text/html; charset=utf-8 52.3085ms
+2024-07-02 09:41:52.025 -06:00 [INF] Executed ViewResult - view Login executed in 4.8496ms.
+2024-07-02 09:41:52.031 -06:00 [INF] Executed ViewResult - view Login executed in 8.7118ms.
+2024-07-02 09:41:52.032 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:52.024 -06:00 [INF] Executed ViewResult - view Login executed in 6.5198ms.
+2024-07-02 09:41:52.038 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login - 200 null text/html; charset=utf-8 49.5948ms
+2024-07-02 09:41:52.037 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 15.2396ms
+2024-07-02 09:41:52.044 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:52.042 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/jquery/dist/jquery.min.js - null null
+2024-07-02 09:41:52.042 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-07-02 09:41:52.045 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_vs/browserLink - null null
+2024-07-02 09:41:52.051 -06:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-07-02 09:41:52.053 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-07-02 09:41:52.055 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 12.4318ms
+2024-07-02 09:41:52.064 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 21.8493ms
+2024-07-02 09:41:52.042 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/Styles.css?v=1mtaveVYu5uGE9_PYUaerV2H7PZz-iGXUhyR8MJ6Gtc - null null
+2024-07-02 09:41:52.045 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-07-02 09:41:52.073 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.802ms
+2024-07-02 09:41:52.076 -06:00 [INF] Sending file. Request path: '/css/Styles.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\css\Styles.css'
+2024-07-02 09:41:52.045 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login - 200 null text/html; charset=utf-8 59.1011ms
+2024-07-02 09:41:52.042 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-07-02 09:41:52.040 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 22.2317ms
+2024-07-02 09:41:52.078 -06:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\js\site.js'
+2024-07-02 09:41:52.081 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/Styles.css?v=1mtaveVYu5uGE9_PYUaerV2H7PZz-iGXUhyR8MJ6Gtc - 200 3722 text/css 38.9302ms
+2024-07-02 09:41:52.086 -06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\css\site.css'
+2024-07-02 09:41:52.042 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-02 09:41:52.042 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/Styles.css - null null
+2024-07-02 09:41:52.087 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 42.1598ms
+2024-07-02 09:41:52.090 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 47.6213ms
+2024-07-02 09:41:52.092 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 49.634ms
+2024-07-02 09:41:52.086 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:52.036 -06:00 [INF] Executed action DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA) in 16.5348ms
+2024-07-02 09:41:52.039 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-07-02 09:41:52.095 -06:00 [INF] Sending file. Request path: '/css/Styles.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\css\Styles.css'
+2024-07-02 09:41:52.101 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login - 200 null text/html; charset=utf-8 108.7331ms
+2024-07-02 09:41:52.105 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/Styles.css - 200 3722 text/css 62.9744ms
+2024-07-02 09:41:52.102 -06:00 [INF] Executed endpoint 'DUNAMIS_SA.Controllers.AuthController.Login (DUNAMIS_SA)'
+2024-07-02 09:41:52.107 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-07-02 09:41:52.111 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Auth/Login - 200 null text/html; charset=utf-8 131.5955ms
+2024-07-02 09:41:52.112 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 72.7099ms
+2024-07-02 09:41:52.124 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - null null
+2024-07-02 09:41:52.127 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/css/path_to_your_image.jpg - 404 0 null 3.4356ms
+2024-07-02 09:41:52.134 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/css/path_to_your_image.jpg, Response status code: 404
+2024-07-02 09:41:52.136 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7091/favicon.ico - null null
+2024-07-02 09:41:52.141 -06:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\wwwroot\favicon.ico'
+2024-07-02 09:41:52.142 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7091/favicon.ico - 200 5430 image/x-icon 6.957ms
