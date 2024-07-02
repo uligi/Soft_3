@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace DUNAMIS_SA.Views.Auth
+namespace DUNAMIS_SA.Views.TiposCargas
 {
-    public class RegisterModel : PageModel
+    public class TiposCargasModel : PageModel
     {
         public void OnGet()
         {

@@ -22,24 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Auth/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Cargas/Cargas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ2FzXENhcmdhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Carga/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ2FcSW5kZXguY3NodG1s
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Clientes/Clientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2xpZW50ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Cliente/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Descuentos/Descuentos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VlbnRvc1xEZXNjdWVudG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Cliente/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Cliente/RegistrarCliente.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxSZWdpc3RyYXJDbGllbnRlLmNzaHRtbA==
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Facturas/Facturas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYXNcRmFjdHVyYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Home/Index.cshtml]
@@ -50,12 +46,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Impuestos/Impuestos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1wdWVzdG9zXEltcHVlc3Rvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Inicio/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEluaWNpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Pagos/Pagos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcUGFnb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Reporte/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxEZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Reporte/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Roles/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcUm9sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Shared/Error.cshtml]
@@ -66,12 +78,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Tarifa/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZhXENyZWF0ZS5jc2h0bWw=
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/TiposCargas/TiposCargas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDYXJnYXNcVGlwb3NDYXJnYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Tarifa/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyaWZhXExpc3QuY3NodG1s
+[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Usuarios/Usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/_ViewImports.cshtml]

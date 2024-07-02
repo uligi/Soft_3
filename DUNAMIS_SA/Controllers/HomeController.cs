@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using DUNAMIS_SA.Data;
+using System.Security.Claims;
 
 namespace DUNAMIS_SA.Controllers
 {
@@ -17,7 +18,10 @@ namespace DUNAMIS_SA.Controllers
         public IActionResult Index()
         {
             var roleID = User.IsInRole("Admin") ? 1 : 2;
+            var userName = User.Identity.Name;
+
             ViewBag.RoleID = roleID;
+            ViewBag.UserName = userName;
             return View();
         }
 

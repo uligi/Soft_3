@@ -13,7 +13,7 @@ namespace DUNAMIS_SA.Data
         public DbSet<Canton> Cantones { get; set; }
         public DbSet<Distrito> Distritos { get; set; }
         public DbSet<Direccion> Direcciones { get; set; }
-        public DbSet<Persona> Personas { get; set; }
+        public DbSet<Persona> Persona { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<TipoCliente> TiposDeCliente { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
@@ -37,7 +37,6 @@ namespace DUNAMIS_SA.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Configuración adicional de las entidades y relaciones
             modelBuilder.Entity<Provincia>()
                 .HasMany(p => p.Cantones)
                 .WithOne(c => c.Provincia)
