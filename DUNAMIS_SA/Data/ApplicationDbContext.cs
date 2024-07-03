@@ -19,7 +19,7 @@ namespace DUNAMIS_SA.Data
         public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Rol> Roles { get; set; }
         public DbSet<Carga> Cargas { get; set; }
-        public DbSet<TipoDeCarga> TiposDeCarga { get; set; }
+        public DbSet<TipoDeCarga> TipoDeCarga { get; set; }
         public DbSet<Factura> Facturas { get; set; }
         public DbSet<DetalleDeFactura> DetallesDeFactura { get; set; }
         public DbSet<Impuesto> Impuestos { get; set; }
