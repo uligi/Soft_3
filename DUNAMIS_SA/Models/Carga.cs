@@ -8,7 +8,7 @@ namespace DUNAMIS_SA.Models
     public class Carga
     {
         [Key]
-        public int CargasID { get; set; }
+        public int CargaID { get; set; }
         [Required]
         public decimal Peso { get; set; }
         [Required]

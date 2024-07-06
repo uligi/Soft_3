@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/qUbeOBO991CoR0cfJKNzjWjpTJRFgNQM79BnyvUkzQ=",
+  "Hash": "QQnjTtd8+5/YfSFIOSxmjdxiAwnW9sc1Ng3kJ0BwhAA=",
   "Source": "DUNAMIS_SA",
   "BasePath": "_content/DUNAMIS_SA",
   "Mode": "Default",
@@ -663,6 +663,25 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\cargas.css",
+      "SourceId": "DUNAMIS_SA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\",
+      "BasePath": "_content/DUNAMIS_SA",
+      "RelativePath": "css/cargas.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cargas.css"
+    },
+    {
       "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\RegistrarCliente.css",
       "SourceId": "DUNAMIS_SA",
       "SourceType": "Discovered",
@@ -965,6 +984,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\js\\cargas.js",
+      "SourceId": "DUNAMIS_SA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\",
+      "BasePath": "_content/DUNAMIS_SA",
+      "RelativePath": "js/cargas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cargas.js"
     },
     {
       "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\js\\site.js",

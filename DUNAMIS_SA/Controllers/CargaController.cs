@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using DUNAMIS_SA.Data;
 using DUNAMIS_SA.Models;
-using Microsoft.Data.SqlClient;
-using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace DUNAMIS_SA.Controllers
 {
@@ -17,51 +16,131 @@ namespace DUNAMIS_SA.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        // GET: Carga
         public async Task<IActionResult> Index()
         {
-            var cargas = await _context.Cargas.Include(c => c.TipoDeCarga).Include(c => c.Cliente).ToListAsync();
-            return View(cargas);
+            return View(await _context.Carga.ToListAsync());
         }
 
+        // GET: Carga/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var carga = await _context.Carga
+                .FirstOrDefaultAsync(m => m.CargaID == id);
+            if (carga == null)
+            {
+                return NotFound();
+            }
+
+            return View(carga);
+        }
+
+        // GET: Carga/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Carga/Create
         [HttpPost]
-        public async Task<IActionResult> CreateOrUpdate(Carga carga)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("CargaID,Peso,FechaEnvio,Destino,TipoDeCargaID,ClienteID")] Carga carga)
         {
             if (ModelState.IsValid)
             {
-                if (carga.CargasID == 0)
-                {
-                    await _context.Database.ExecuteSqlRawAsync(
-                        "EXEC CrearCarga @Peso, @FechaEnvio, @Destino, @TipoDeCargaID, @ClienteID",
-                        new SqlParameter("@Peso", carga.Peso),
-                        new SqlParameter("@FechaEnvio", carga.FechaEnvio),
-                        new SqlParameter("@Destino", carga.Destino),
-                        new SqlParameter("@TipoDeCargaID", carga.TipoDeCargaID),
-                        new SqlParameter("@ClienteID", carga.ClienteID)
-                    );
-                }
-                else
-                {
-                    await _context.Database.ExecuteSqlRawAsync(
-                        "EXEC ActualizarCarga @CargaID, @Peso, @FechaEnvio, @Destino, @TipoDeCargaID, @ClienteID",
-                        new SqlParameter("@CargaID", carga.CargasID),
-                        new SqlParameter("@Peso", carga.Peso),
-                        new SqlParameter("@FechaEnvio", carga.FechaEnvio),
-                        new SqlParameter("@Destino", carga.Destino),
-                        new SqlParameter("@TipoDeCargaID", carga.TipoDeCargaID),
-                        new SqlParameter("@ClienteID", carga.ClienteID)
-                    );
-                }
-                return Json(new { success = true });
+                _context.Add(carga);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
             }
-            return Json(new { success = false, message = "Invalid data." });
+            return View(carga);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Delete(int id)
+        // GET: Carga/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
-            await _context.Database.ExecuteSqlRawAsync("EXEC EliminarCarga @CargaID", new SqlParameter("@CargaID", id));
-            return Json(new { success = true });
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var carga = await _context.Carga.FindAsync(id);
+            if (carga == null)
+            {
+                return NotFound();
+            }
+            return View(carga);
+        }
+
+        // POST: Carga/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("CargaID,Peso,FechaEnvio,Destino,TipoDeCargaID,ClienteID")] Carga carga)
+        {
+            if (id != carga.CargaID)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(carga);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!CargaExists(carga.CargaID))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(carga);
+        }
+
+        // GET: Carga/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var carga = await _context.Carga
+                .FirstOrDefaultAsync(m => m.CargaID == id);
+            if (carga == null)
+            {
+                return NotFound();
+            }
+
+            return View(carga);
+        }
+
+        // POST: Carga/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var carga = await _context.Carga.FindAsync(id);
+            _context.Carga.Remove(carga);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool CargaExists(int id)
+        {
+            return _context.Carga.Any(e => e.CargaID == id);
         }
     }
 }
