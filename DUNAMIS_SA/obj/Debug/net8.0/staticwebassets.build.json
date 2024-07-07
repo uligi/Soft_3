@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QQnjTtd8+5/YfSFIOSxmjdxiAwnW9sc1Ng3kJ0BwhAA=",
+  "Hash": "r8p9YSbHR105NQS2MVYDfhku4azIAspl6OdlmG30aq4=",
   "Source": "DUNAMIS_SA",
   "BasePath": "_content/DUNAMIS_SA",
   "Mode": "Default",
@@ -1022,6 +1022,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\js\\tiposDeCarga.js",
+      "SourceId": "DUNAMIS_SA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\",
+      "BasePath": "_content/DUNAMIS_SA",
+      "RelativePath": "js/tiposDeCarga.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\tiposDeCarga.js"
     },
     {
       "Identity": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

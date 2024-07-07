@@ -4,6 +4,7 @@ using DUNAMIS_SA.Models;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
 
 namespace DUNAMIS_SA.Controllers
 {
@@ -22,120 +23,48 @@ namespace DUNAMIS_SA.Controllers
             return View(await _context.TipoDeCarga.ToListAsync());
         }
 
-        // GET: TipoDeCarga/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var tipoDeCarga = await _context.TipoDeCarga
-                .FirstOrDefaultAsync(m => m.TipoDeCargaID == id);
-            if (tipoDeCarga == null)
-            {
-                return NotFound();
-            }
-
-            return View(tipoDeCarga);
-        }
-
-        // GET: TipoDeCarga/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: TipoDeCarga/Create
+        // POST: TipoDeCarga/Save
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TipoDeCargaID,Descripcion,TarifaPorKilo")] TipoDeCarga tipoDeCarga)
+        public async Task<IActionResult> Save([Bind("TipoDeCargaID,Descripcion,TarifaPorKilo")] TipoDeCarga tipoDeCarga)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(tipoDeCarga);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(tipoDeCarga);
-        }
-
-        // GET: TipoDeCarga/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var tipoDeCarga = await _context.TipoDeCarga.FindAsync(id);
-            if (tipoDeCarga == null)
-            {
-                return NotFound();
-            }
-            return View(tipoDeCarga);
-        }
-
-        // POST: TipoDeCarga/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TipoDeCargaID,Descripcion,TarifaPorKilo")] TipoDeCarga tipoDeCarga)
-        {
-            if (id != tipoDeCarga.TipoDeCargaID)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                if (tipoDeCarga.TipoDeCargaID == 0)
                 {
-                    _context.Update(tipoDeCarga);
-                    await _context.SaveChangesAsync();
+                    string query = "INSERT INTO TipoDeCarga (Descripcion, TarifaPorKilo) VALUES (@Descripcion, @TarifaPorKilo)";
+                    await _context.Database.ExecuteSqlRawAsync(query, new SqlParameter("@Descripcion", tipoDeCarga.Descripcion), new SqlParameter("@TarifaPorKilo", tipoDeCarga.TarifaPorKilo));
                 }
-                catch (DbUpdateConcurrencyException)
+                else
                 {
-                    if (!TipoDeCargaExists(tipoDeCarga.TipoDeCargaID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    string query = "UPDATE TipoDeCarga SET Descripcion = @Descripcion, TarifaPorKilo = @TarifaPorKilo WHERE TipoDeCargaID = @TipoDeCargaID";
+                    await _context.Database.ExecuteSqlRawAsync(query, new SqlParameter("@Descripcion", tipoDeCarga.Descripcion), new SqlParameter("@TarifaPorKilo", tipoDeCarga.TarifaPorKilo), new SqlParameter("@TipoDeCargaID", tipoDeCarga.TipoDeCargaID));
                 }
-                return RedirectToAction(nameof(Index));
+                return Ok();
             }
-            return View(tipoDeCarga);
-        }
-
-        // GET: TipoDeCarga/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var tipoDeCarga = await _context.TipoDeCarga
-                .FirstOrDefaultAsync(m => m.TipoDeCargaID == id);
-            if (tipoDeCarga == null)
-            {
-                return NotFound();
-            }
-
-            return View(tipoDeCarga);
+            return BadRequest(ModelState);
         }
 
         // POST: TipoDeCarga/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
         {
             var tipoDeCarga = await _context.TipoDeCarga.FindAsync(id);
-            _context.TipoDeCarga.Remove(tipoDeCarga);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            if (tipoDeCarga == null)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                _context.TipoDeCarga.Remove(tipoDeCarga);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Internal server error: " + ex.Message);
+            }
         }
 
         private bool TipoDeCargaExists(int id)

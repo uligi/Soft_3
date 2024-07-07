@@ -209,6 +209,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\js\\tiposDeCarga.js",
+      "PackagePath": "staticwebassets\\js\\tiposDeCarga.js"
+    },
+    {
       "Id": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

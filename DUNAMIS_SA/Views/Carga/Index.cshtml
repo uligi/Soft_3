@@ -5,92 +5,111 @@
     ViewData["Title"] = "Administrar Cargas";
 }
 
-<div class="main-content container">
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Peso</th>
-                <th>Fecha Envío</th>
-                <th>Destino</th>
-                <th>Tipo de Carga</th>
-                <th>Cliente</th>
-                <th>Acciones</th>
-            </tr>
-        </thead>
-        <tbody id="cargaTableBody" data-model='@Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model))'>
-            @foreach (var item in Model)
-            {
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - DUNAMIS SA</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/cargas.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="header">
+        <h1>@ViewData["Title"]</h1>
+    </header>
+    <main class="main-content container">
+        <table class="table table-striped">
+            <thead>
                 <tr>
-                    <td>@item.CargaID</td>
-                    <td>@item.Peso</td>
-                    <td>@item.FechaEnvio.ToString("yyyy-MM-dd")</td>
-                    <td>@item.Destino</td>
-                    <td>@item.TipoDeCargaID</td>
-                    <td>@item.ClienteID</td>
-                    <td>
-                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editModal" data-id="@item.CargaID">Editar</button>
-                        <button class="btn btn-danger btn-sm" onclick="deleteCarga(@item.CargaID)">Eliminar</button>
-                    </td>
+                    <th>ID</th>
+                    <th>Peso</th>
+                    <th>Fecha de Envío</th>
+                    <th>Destino</th>
+                    <th>Tipo de Carga</th>
+                    <th>Cliente</th>
+                    <th>Acciones</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal" onclick="showAddModal()">Agregar Nueva Carga</button>
+            </thead>
+            <tbody id="cargaTableBody">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CargaID</td>
+                        <td>@item.Peso</td>
+                        <td>@item.FechaEnvio.ToString("dd/MM/yyyy")</td>
+                        <td>@item.Destino</td>
+                        <td>@item.TipoDeCarga.Descripcion</td>
+                        <td>@item.Cliente.Persona.Nombre</td>
+                        <td>
+                            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editModal" data-id="@item.CargaID">Editar</button>
+                            <button class="btn btn-danger btn-sm" onclick="deleteCarga(@item.CargaID)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal" onclick="showAddModal()">Agregar Nueva Carga</button>
 
-    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="editModalLabel">Agregar/Editar Carga</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="cargaForm" novalidate>
-                        <input type="hidden" id="CargasID" name="CargasID" />
-                        <div class="form-group">
-                            <label for="Peso">Peso</label>
-                            <input type="number" class="form-control" id="Peso" name="Peso" required min="0" />
-                            <div class="invalid-feedback">
-                                Completa este campo con un peso válido.
+        <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="editModalLabel">Agregar/Editar Carga</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="cargaForm" novalidate>
+                            <input type="hidden" id="CargaID" name="CargaID" />
+                            <div class="form-group">
+                                <label for="Peso">Peso</label>
+                                <input type="number" class="form-control" id="Peso" name="Peso" required />
+                                <div class="invalid-feedback">
+                                    Completa este campo.
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="FechaEnvio">Fecha de Envío</label>
-                            <input type="date" class="form-control" id="FechaEnvio" name="FechaEnvio" required />
-                            <div class="invalid-feedback">
-                                Completa este campo con una fecha válida.
+                            <div class="form-group">
+                                <label for="FechaEnvio">Fecha de Envío</label>
+                                <input type="date" class="form-control" id="FechaEnvio" name="FechaEnvio" required />
+                                <div class="invalid-feedback">
+                                    Completa este campo.
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="Destino">Destino</label>
-                            <input type="text" class="form-control" id="Destino" name="Destino" required maxlength="255" />
-                            <div class="invalid-feedback">
-                                Completa este campo (máximo 255 caracteres).
+                            <div class="form-group">
+                                <label for="Destino">Destino</label>
+                                <input type="text" class="form-control" id="Destino" name="Destino" required maxlength="255" />
+                                <div class="invalid-feedback">
+                                    Completa este campo (máximo 255 caracteres).
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="TipoDeCargaID">Tipo de Carga</label>
-                            <input type="number" class="form-control" id="TipoDeCargaID" name="TipoDeCargaID" required />
-                            <div class="invalid-feedback">
-                                Completa este campo con un ID de tipo de carga válido.
+                            <div class="form-group">
+                                <label for="TipoDeCargaID">Tipo de Carga</label>
+                                <select class="form-control" id="TipoDeCargaID" name="TipoDeCargaID" required>
+                                    <!-- Opciones -->
+                                </select>
+                                <div class="invalid-feedback">
+                                    Selecciona una opción.
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="ClienteID">Cliente</label>
-                            <input type="number" class="form-control" id="ClienteID" name="ClienteID" required />
-                            <div class="invalid-feedback">
-                                Completa este campo con un ID de cliente válido.
+                            <div class="form-group">
+                                <label for="ClienteID">Cliente</label>
+                                <select class="form-control" id="ClienteID" name="ClienteID" required>
+                                    <!-- Opciones -->
+                                </select>
+                                <div class="invalid-feedback">
+                                    Selecciona una opción.
+                                </div>
                             </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Guardar</button>
-                    </form>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-
-@section Scripts {
-    <script src="~/js/cargas.js"></script>
-}
+    </main>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/cargas.js" asp-append-version="true"></script>
+</body>
+</html>

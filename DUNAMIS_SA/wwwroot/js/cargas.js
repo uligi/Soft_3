@@ -1,5 +1,15 @@
-document.addEventListener('DOMContentLoaded', function () {
+$(document).ready(function () {
     var editModal = document.getElementById('editModal');
+    var backdropExists = false;
+
+    // Eliminar los backdrop adicionales al cerrar el modal
+    $('#editModal').on('hidden.bs.modal', function () {
+        if (backdropExists) {
+            $('.modal-backdrop').remove();
+            backdropExists = false;
+        }
+    });
+
     editModal.addEventListener('show.bs.modal', function (event) {
         var button = event.relatedTarget;
         var id = button.getAttribute('data-id');
@@ -8,30 +18,33 @@ document.addEventListener('DOMContentLoaded', function () {
         var modalBodyInputPeso = editModal.querySelector('#Peso');
         var modalBodyInputFechaEnvio = editModal.querySelector('#FechaEnvio');
         var modalBodyInputDestino = editModal.querySelector('#Destino');
-        var modalBodyInputTipoDeCargaID = editModal.querySelector('#TipoDeCargaID');
-        var modalBodyInputClienteID = editModal.querySelector('#ClienteID');
+        var modalBodyInputTipoDeCarga = editModal.querySelector('#TipoDeCargaID');
+        var modalBodyInputCliente = editModal.querySelector('#ClienteID');
 
         if (id) {
             // Obtener los datos del modelo para el ID dado
-            var data = JSON.parse(document.getElementById('cargaTableBody').dataset.model);
+            var data = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model));
             var carga = data.find(item => item.CargaID == id);
 
             modalBodyInputID.value = carga.CargaID;
             modalBodyInputPeso.value = carga.Peso;
-            modalBodyInputFechaEnvio.value = carga.FechaEnvio.split('T')[0]; // Formato YYYY-MM-DD
+            modalBodyInputFechaEnvio.value = carga.FechaEnvio.split('T')[0]; // Formatear la fecha
             modalBodyInputDestino.value = carga.Destino;
-            modalBodyInputTipoDeCargaID.value = carga.TipoDeCargaID;
-            modalBodyInputClienteID.value = carga.ClienteID;
+            modalBodyInputTipoDeCarga.value = carga.TipoDeCargaID;
+            modalBodyInputCliente.value = carga.ClienteID;
             modalTitle.textContent = 'Editar Carga';
         } else {
             modalBodyInputID.value = '';
             modalBodyInputPeso.value = '';
             modalBodyInputFechaEnvio.value = '';
             modalBodyInputDestino.value = '';
-            modalBodyInputTipoDeCargaID.value = '';
-            modalBodyInputClienteID.value = '';
+            modalBodyInputTipoDeCarga.value = '';
+            modalBodyInputCliente.value = '';
             modalTitle.textContent = 'Agregar Carga';
         }
+
+        // Establecer que existe un backdrop
+        backdropExists = true;
     });
 
     var cargaForm = document.getElementById('cargaForm');
@@ -48,14 +61,14 @@ document.addEventListener('DOMContentLoaded', function () {
         var peso = document.getElementById('Peso').value;
         var fechaEnvio = document.getElementById('FechaEnvio').value;
         var destino = document.getElementById('Destino').value;
-        var tipoDeCargaID = document.getElementById('TipoDeCargaID').value;
-        var clienteID = document.getElementById('ClienteID').value;
+        var tipoDeCarga = document.getElementById('TipoDeCargaID').value;
+        var cliente = document.getElementById('ClienteID').value;
 
         // Simulando la creación/actualización de datos
         if (id) {
-            alert('Carga ' + id + ' actualizada: ' + peso + ', ' + fechaEnvio + ', ' + destino + ', ' + tipoDeCargaID + ', ' + clienteID);
+            alert('Carga ' + id + ' actualizada: ' + peso + ' kg, ' + fechaEnvio + ', ' + destino);
         } else {
-            alert('Nueva Carga agregada: ' + peso + ', ' + fechaEnvio + ', ' + destino + ', ' + tipoDeCargaID + ', ' + clienteID);
+            alert('Nueva Carga agregada: ' + peso + ' kg, ' + fechaEnvio + ', ' + destino);
         }
 
         var modal = bootstrap.Modal.getInstance(editModal);
@@ -63,31 +76,22 @@ document.addEventListener('DOMContentLoaded', function () {
         location.reload(); // Recargar la página para ver los cambios
     });
 
-    var fechaEnvioInput = document.getElementById('FechaEnvio');
-    fechaEnvioInput.addEventListener('input', function () {
-        var datePattern = /^\d{4}-\d{2}-\d{2}$/;
-        if (!datePattern.test(this.value)) {
-            this.classList.add('is-invalid');
-        } else {
-            this.classList.remove('is-invalid');
-        }
-    });
-
-    var pesoInput = document.getElementById('Peso');
-    pesoInput.addEventListener('input', function () {
-        if (this.value < 0) {
-            this.classList.add('is-invalid');
-            this.value = 0;
-        } else {
-            this.classList.remove('is-invalid');
-        }
-    });
-
+    // Validación para la cantidad de caracteres y el formato permitido
     var destinoInput = document.getElementById('Destino');
     destinoInput.addEventListener('input', function () {
         var maxLength = 255;
         if (this.value.length > maxLength) {
+            alert('El destino no puede tener más de ' + maxLength + ' caracteres.');
             this.value = this.value.substring(0, maxLength);
+            this.classList.add('is-invalid');
+        } else {
+            this.classList.remove('is-invalid');
+        }
+
+        var invalidChars = /[^a-zA-Z0-9\s]/;
+        if (invalidChars.test(this.value)) {
+            alert('El destino solo puede contener letras, números y espacios.');
+            this.value = this.value.replace(invalidChars, '');
             this.classList.add('is-invalid');
         } else {
             this.classList.remove('is-invalid');
