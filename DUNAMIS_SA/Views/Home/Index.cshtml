@@ -12,19 +12,19 @@
     </div>
 }
 <div class="menu">
-    <a asp-controller="Clientes" asp-action="Clientes" class="menu-item">Registrar Clientes</a>
-    <a asp-controller="Cargas" asp-action="Cargas" class="menu-item">Cotizar Carga</a>
-    <a asp-controller="Facturas" asp-action="Facturas" class="menu-item">Facturas</a>
-    <a asp-controller="Pagos" asp-action="Pagos" class="menu-item">Historial de pagos</a>
-    <a asp-controller="Reportes" asp-action="Reportes" class="menu-item">Reportes</a>
+    <a asp-controller="Cliente" asp-action="Index" class="menu-item">Registrar Clientes</a>
+    <a asp-controller="Carga" asp-action="Index" class="menu-item">Cotizar Carga</a>
+    <a asp-controller="Factura" asp-action="Index" class="menu-item">Facturas</a>
+    <a asp-controller="Pago" asp-action="Index" class="menu-item">Historial de pagos</a>
+    <a asp-controller="Reporte" asp-action="Index" class="menu-item">Reportes</a>
 
     @if (roleID == 1) // Solo el administrador puede ver estas opciones
     {
-        <a asp-controller="Usuarios" asp-action="Usuarios" class="menu-item">Usuarios</a>
-        <a asp-controller="Impuestos" asp-action="Impuestos" class="menu-item">Actualizar Impuestos</a>
-        <a asp-controller="Descuentos" asp-action="Descuentos" class="menu-item">Actualizar Descuentos</a>
-        <a asp-controller="TiposCargas" asp-action="TiposCargas" class="menu-item">Tipos de Cargas</a>
-        <a asp-controller="Roles" asp-action="Roles" class="menu-item">Roles</a>
+        <a asp-controller="Usuario" asp-action="Index" class="menu-item">Usuarios</a>
+        <a asp-controller="Impuesto" asp-action="Index" class="menu-item">Actualizar Impuestos</a>
+        <a asp-controller="Descuento" asp-action="Index" class="menu-item">Actualizar Descuentos</a>
+        <a asp-controller="TipoDeCarga" asp-action="Index" class="menu-item">Tipos de Cargas</a>
+        <a asp-controller="Rol" asp-action="Index" class="menu-item">Roles</a>
     }
 </div>
 <div class="logout">
