@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51CDCA43-6303-4A58-A54B-0DBC20DDB27A}|DUNAMIS_SA.csproj|c:\\users\\ul13m\\documents\\github\\soft_3\\dunamis_sa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -85,7 +85,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,19 +102,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T01:15:50.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -127,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TipoDeCargaController.cs",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Controllers\\TipoDeCargaController.cs",
               "RelativeDocumentMoniker": "Controllers\\TipoDeCargaController.cs",
@@ -179,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Views\\TipoDeCarga\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\TipoDeCarga\\Index.cshtml",
@@ -218,20 +205,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Styles.css",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\Styles.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Styles.css",
               "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\Styles.css",
               "RelativeToolTip": "wwwroot\\css\\Styles.css",
-              "ViewState": "AQIAAIEAAAAAAAAAAADwv6MAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-06T21:40:51.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T01:15:50.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -244,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "tiposDeCarga.js",
               "DocumentMoniker": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\wwwroot\\js\\tiposDeCarga.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\tiposDeCarga.js",
