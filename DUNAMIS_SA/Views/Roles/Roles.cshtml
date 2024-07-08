@@ -1,4 +1,55 @@
-﻿@page
+﻿
+
 @model DUNAMIS_SA.Views.Roles.RolesModel
+
+
 @{
+    Layout = "_Layout";
+    ViewData["Title"] = "Administrar Roles";
 }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/roles.css" asp-append-version="true" />
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Administrar Roles</h1>
+    </header>
+    <main class="main-content">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Descripción</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var rol in Model)
+                {
+                    <tr>
+                        <td>@rol.RolID</td>
+                        <td>@rol.Descripcion</td>
+                        <td>
+                            <a asp-controller="Rol" asp-action="Edit" asp-route-id="@rol.RolID" class="btn btn-primary btn-sm">Editar</a>
+                            <form asp-controller="Rol" asp-action="Delete" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@rol.RolID" />
+                                <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-controller="Rol" asp-action="Create" class="btn btn-success">Agregar Nuevo Rol</a>
+    </main>
+</body>
+</html>

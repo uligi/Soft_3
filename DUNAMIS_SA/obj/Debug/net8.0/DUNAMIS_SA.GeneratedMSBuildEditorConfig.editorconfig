@@ -9,91 +9,91 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DUNAMIS_SA
 build_property.RootNamespace = DUNAMIS_SA
-build_property.ProjectDir = C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA\
+build_property.ProjectDir = C:\Users\TECHZILLA\source\repos\Soft_3\DUNAMIS_SA\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ul13m\Documents\GitHub\Soft_3\DUNAMIS_SA
+build_property.MSBuildProjectDirectory = C:\Users\TECHZILLA\source\repos\Soft_3\DUNAMIS_SA
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Auth/Login.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Cargas/Cargas.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Cargas/Cargas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ2FzXENhcmdhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Clientes/Clientes.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Clientes/Clientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2xpZW50ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Descuentos/Descuentos.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Descuentos/Descuentos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VlbnRvc1xEZXNjdWVudG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Facturas/Facturas.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Facturas/Facturas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYXNcRmFjdHVyYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Home/Index.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Home/Privacy.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Impuestos/Impuestos.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Impuestos/Impuestos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1wdWVzdG9zXEltcHVlc3Rvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Inicio/Inicio.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Inicio/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEluaWNpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Pagos/Pagos.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Pagos/Pagos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcUGFnb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Reporte/Detalle.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Reporte/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxEZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Reporte/Index.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Reporte/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Roles/Roles.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Roles/Roles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcUm9sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Shared/Error.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/TiposCargas/TiposCargas.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/TiposCargas/TiposCargas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDYXJnYXNcVGlwb3NDYXJnYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Usuarios/Usuarios.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Usuarios/Usuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/_ViewImports.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/_ViewStart.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ul13m/Documents/GitHub/Soft_3/DUNAMIS_SA/Views/Shared/_Layout.cshtml]
+[C:/Users/TECHZILLA/source/repos/Soft_3/DUNAMIS_SA/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fpagdcxfqi

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\DUNAMIS_SA.csproj": {}
+    "C:\\Users\\TECHZILLA\\source\\repos\\Soft_3\\DUNAMIS_SA\\DUNAMIS_SA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\DUNAMIS_SA.csproj": {
+    "C:\\Users\\TECHZILLA\\source\\repos\\Soft_3\\DUNAMIS_SA\\DUNAMIS_SA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\DUNAMIS_SA.csproj",
+        "projectUniqueName": "C:\\Users\\TECHZILLA\\source\\repos\\Soft_3\\DUNAMIS_SA\\DUNAMIS_SA.csproj",
         "projectName": "DUNAMIS_SA",
-        "projectPath": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\DUNAMIS_SA.csproj",
-        "packagesPath": "C:\\Users\\ul13m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ul13m\\Documents\\GitHub\\Soft_3\\DUNAMIS_SA\\obj\\",
+        "projectPath": "C:\\Users\\TECHZILLA\\source\\repos\\Soft_3\\DUNAMIS_SA\\DUNAMIS_SA.csproj",
+        "packagesPath": "C:\\Users\\TECHZILLA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TECHZILLA\\source\\repos\\Soft_3\\DUNAMIS_SA\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ul13m\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\TECHZILLA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
